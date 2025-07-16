@@ -1,0 +1,12 @@
+{
+    "name": "llm-server",
+    "version": "1.0.0",
+    "scripts": {
+      "dev": "uvicorn main:app --reload --host 0.0.0.0 --port 8000"
+    },
+    "workspaces": [
+        "apps/web",
+        "apps/server"
+      ]
+
+  }
